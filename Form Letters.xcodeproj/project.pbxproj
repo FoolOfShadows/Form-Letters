@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		799A3B4721A317A500075764 /* LabDataClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A3B4121A317A500075764 /* LabDataClasses.swift */; };
+		799A3B4821A317A500075764 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A3B4221A317A500075764 /* LabViewController.swift */; };
+		799A3B4921A317A500075764 /* PopulateFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A3B4321A317A500075764 /* PopulateFormModel.swift */; };
+		799A3B4A21A317A500075764 /* GeneralBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A3B4421A317A500075764 /* GeneralBits.swift */; };
+		799A3B4B21A317A500075764 /* LabValuePrefrencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A3B4521A317A500075764 /* LabValuePrefrencesController.swift */; };
+		799A3B4C21A317A500075764 /* LabValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A3B4621A317A500075764 /* LabValues.swift */; };
 		79EECDBF219DF3F8000EA50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EECDBE219DF3F8000EA50A /* AppDelegate.swift */; };
-		79EECDC1219DF3F8000EA50A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EECDC0219DF3F8000EA50A /* ViewController.swift */; };
 		79EECDC3219DF3FA000EA50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EECDC2219DF3FA000EA50A /* Assets.xcassets */; };
 		79EECDC6219DF3FA000EA50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EECDC4219DF3FA000EA50A /* Main.storyboard */; };
 		79EECDD2219DF3FA000EA50A /* Form_LettersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EECDD1219DF3FA000EA50A /* Form_LettersTests.swift */; };
 		79EECDDD219DF3FA000EA50A /* Form_LettersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EECDDC219DF3FA000EA50A /* Form_LettersUITests.swift */; };
+		79EECDEB219DF7A0000EA50A /* BMDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EECDEA219DF7A0000EA50A /* BMDViewController.swift */; };
+		79EECDED219DF7C0000EA50A /* BMDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EECDEC219DF7C0000EA50A /* BMDModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		799A3B4121A317A500075764 /* LabDataClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabDataClasses.swift; sourceTree = "<group>"; };
+		799A3B4221A317A500075764 /* LabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
+		799A3B4321A317A500075764 /* PopulateFormModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulateFormModel.swift; sourceTree = "<group>"; };
+		799A3B4421A317A500075764 /* GeneralBits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralBits.swift; sourceTree = "<group>"; };
+		799A3B4521A317A500075764 /* LabValuePrefrencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabValuePrefrencesController.swift; sourceTree = "<group>"; };
+		799A3B4621A317A500075764 /* LabValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabValues.swift; sourceTree = "<group>"; };
 		79EECDBB219DF3F8000EA50A /* Form Letters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Form Letters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EECDBE219DF3F8000EA50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79EECDC0219DF3F8000EA50A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79EECDC2219DF3FA000EA50A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EECDC5219DF3FA000EA50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79EECDC7219DF3FA000EA50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +58,8 @@
 		79EECDD8219DF3FA000EA50A /* Form LettersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Form LettersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EECDDC219DF3FA000EA50A /* Form_LettersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_LettersUITests.swift; sourceTree = "<group>"; };
 		79EECDDE219DF3FA000EA50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EECDEA219DF7A0000EA50A /* BMDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMDViewController.swift; sourceTree = "<group>"; };
+		79EECDEC219DF7C0000EA50A /* BMDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMDModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		799A3B4D21A317B000075764 /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				799A3B4221A317A500075764 /* LabViewController.swift */,
+				799A3B4421A317A500075764 /* GeneralBits.swift */,
+				799A3B4121A317A500075764 /* LabDataClasses.swift */,
+				799A3B4521A317A500075764 /* LabValuePrefrencesController.swift */,
+				799A3B4621A317A500075764 /* LabValues.swift */,
+				799A3B4321A317A500075764 /* PopulateFormModel.swift */,
+			);
+			path = Labs;
+			sourceTree = "<group>";
+		};
 		79EECDB2219DF3F8000EA50A = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +123,11 @@
 		79EECDBD219DF3F8000EA50A /* Form Letters */ = {
 			isa = PBXGroup;
 			children = (
-				79EECDBE219DF3F8000EA50A /* AppDelegate.swift */,
-				79EECDC0219DF3F8000EA50A /* ViewController.swift */,
-				79EECDC2219DF3FA000EA50A /* Assets.xcassets */,
 				79EECDC4219DF3FA000EA50A /* Main.storyboard */,
+				79EECDBE219DF3F8000EA50A /* AppDelegate.swift */,
+				799A3B4D21A317B000075764 /* Labs */,
+				79EECDEE219DF7C7000EA50A /* BMD */,
+				79EECDC2219DF3FA000EA50A /* Assets.xcassets */,
 				79EECDC7219DF3FA000EA50A /* Info.plist */,
 				79EECDC8219DF3FA000EA50A /* Form_Letters.entitlements */,
 			);
@@ -122,6 +150,15 @@
 				79EECDDE219DF3FA000EA50A /* Info.plist */,
 			);
 			path = "Form LettersUITests";
+			sourceTree = "<group>";
+		};
+		79EECDEE219DF7C7000EA50A /* BMD */ = {
+			isa = PBXGroup;
+			children = (
+				79EECDEA219DF7A0000EA50A /* BMDViewController.swift */,
+				79EECDEC219DF7C0000EA50A /* BMDModel.swift */,
+			);
+			path = BMD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79EECDC1219DF3F8000EA50A /* ViewController.swift in Sources */,
+				799A3B4821A317A500075764 /* LabViewController.swift in Sources */,
+				799A3B4921A317A500075764 /* PopulateFormModel.swift in Sources */,
+				799A3B4B21A317A500075764 /* LabValuePrefrencesController.swift in Sources */,
+				799A3B4A21A317A500075764 /* GeneralBits.swift in Sources */,
+				799A3B4C21A317A500075764 /* LabValues.swift in Sources */,
+				79EECDED219DF7C0000EA50A /* BMDModel.swift in Sources */,
+				79EECDEB219DF7A0000EA50A /* BMDViewController.swift in Sources */,
+				799A3B4721A317A500075764 /* LabDataClasses.swift in Sources */,
 				79EECDBF219DF3F8000EA50A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +474,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Form-Letters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -449,6 +494,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Form-Letters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
